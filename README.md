@@ -1,19 +1,5 @@
 # bamazon
 
-<<<<<<< HEAD
-Valdineias-MBP:bamazon valsignorelli$ node bamazonManager.js
-? Please choose an option: Add New Product
-? Please enter the new product name. Pinneapple
-? Which department does the new product belong to? Produce
-? What is the price per unit? 2.50
-? How many items are in stock? 65
-Adding New Item:
-    product_name = Pinneapple
-    department_name = Produce
-    price = 2.00
-    stock_quantity = 65
-New product has been added to the inventory under Item ID 11.
-=======
 This is an Amazon-like storefront using MySQL Database. The app will take in orders from customers and deplete stock from the store's inventory. The application presents two interfaces: customer and manager.
 
 Customer Interface:
@@ -49,7 +35,6 @@ Successfully purchased5Popsicless for $12.5!
 Manager Interface:
 
 The manager can choose what he/she wants to check. Choose one option to display. If the manager chooses to add items then the app will ask the proper questions to add the right item to the right category.
->>>>>>> 1435c63ea93993718ccd29380c09558ab2aac39b
 
 Valdineias-MBP:bamazon valsignorelli$ node bamazonManager.js
 ? Please choose an option: View Products for Sale
@@ -76,9 +61,9 @@ Item ID: 9  //  Product Name: Tablet  //  Department: Electronics  //  Price: $3
 
 Item ID: 10  //  Product Name: Tylenol  //  Department: Pharmacy  //  Price: $3.5  //  Quantity: 125
 
-<<<<<<< HEAD
 Item ID: 11  //  Product Name: Pinneapple  //  Department: Produce  //  Price: $2  //  Quantity: 65
-=======
+ 
+
 Valdineias-MBP:bamazon valsignorelli$ node bamazonManager.js
 ? Please choose an option: Add New Product
 ? Please enter the new product name. Pinneapple
@@ -91,4 +76,4 @@ Adding New Item:
     price = 2.50
     stock_quantity = 65
 New product has been added to the inventory under Item ID 11.
->>>>>>> 1435c63ea93993718ccd29380c09558ab2aac39b
+
